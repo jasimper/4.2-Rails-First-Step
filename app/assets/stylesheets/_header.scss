@@ -2,7 +2,7 @@
   top: 0;
   bottom: 0;
   height: 260px;
-  background-image: url('./images/nestle.jpg');
+  background-image: url('nestle.jpg');
   background-size: cover;
   background-position: 50% 50%;
   @media screen and (min-width: 800px) {
@@ -91,7 +91,6 @@ nav {
     width: 240px;
     color: #042C46;
     font-size: .75em;
-    // line-height: 30px;
     > img {
       width: 30px;
       height: 30px;
