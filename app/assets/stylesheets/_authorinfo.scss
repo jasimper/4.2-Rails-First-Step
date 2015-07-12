@@ -9,7 +9,7 @@
   }
 }
 .author__pic {
-  background-image: url('./images/dandysir.jpg');
+  background-image: url('dandysir.jpg');
   background-size: cover;
   background-position: 50% 50%;
   margin-left: auto;
@@ -31,7 +31,6 @@
 }
 .author__links {
   list-style: none;
-  // margin-top: 0;
   padding-left: 0;
   > li {
     display: inline-block;

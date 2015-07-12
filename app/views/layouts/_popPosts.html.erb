@@ -2,19 +2,22 @@
 <div class="pop__postsHeader"><h1>MOST POPULAR POSTS</h1></div>
 
 <div class="pop__posts"><a href="/post2">
-  <img class="pop__postsImage" src="./images/withstand.jpg">
+  <%= image_tag("withstand.jpg", :alt => "seashell on sand",  :class => "pop__postsImage") %>
   <div class="pop__postsBody"><h2>Post Title</h2></div></a>
 </div>
 <div class="pop__posts">
-  <a href="./post3"><img class="pop__postsImage" src="./images/followtheleader.jpg">
+  <a href="./post3">
+  <%= image_tag("followtheleader.jpg", :alt => "birds on beach", :class => "pop__postsImage") %>
   <div class="pop__postsBody"><h2>Here's Another Longer Post Title</h2></div></a>
 </div>
 <div class="pop__posts">
-  <a href="./post4"><img class="pop__postsImage" src="./images/banner.jpg">
+  <a href="./post4">
+    <%= image_tag("banner.jpg", :alt => "lighthouse and grafiti", :class => "pop__postsImage") %>
   <div class="pop__postsBody"><h2>Oh Cool Post!</h2></div></a>
 </div>
 <div class="pop__posts">
-  <a href="./post5"><img class="pop__postsImage" src="./images/follyisland.jpg">
+  <a href="./post5">
+  <%= image_tag("follyisland.jpg", :alt => "beach", :class => "pop__postsImage") %>
   <div class="pop__postsBody"><h2>Another Cool Post</h2></div></a>
 </div>
 </div>
